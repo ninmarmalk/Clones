@@ -1,0 +1,91 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+body {
+    color: #253247;
+    margin: 0;
+}
+
+.wrapper {
+    width: 95%;
+    margin: 0 auto;
+}
+
+.head {
+    display: flex;
+    justify-content: space-between;
+}
+
+nav h2 {
+    letter-spacing: 2px;
+    margin-left: 10px;
+    font-weight: lighter;
+    font-size: 30px;
+}
+
+nav button {
+    color:white;
+    cursor: pointer;
+    text-decoration: none;
+    border: 1px solid white;
+    border-radius: 20px;
+    background: transparent;
+    padding: 10px;
+    margin-top: 12px;
+}
+
+.mainhead {
+    text-align: center;
+    padding-top: 10px;
+    height: 800px;
+    background: url(blue.jpeg);
+    background-size: cover;
+    color: white;
+}
+
+.signup {
+    margin-top: 100px;
+}
+
+.signup p {
+    font-size: 12px;
+    padding: 0;
+}
+
+.form input {
+    border: none;
+    border-radius: 10px;
+    margin: 0 0 20px 20px;
+    padding: 15px;
+
+}
+
+.form select {
+    border: none;
+    margin: 0 0 20px 20px;
+    padding: 15px;
+    width: 368px;
+    height: 40px;
+    color: rgb(105, 105, 105);
+}
+
+.create {
+    border: none;
+    margin: 0 0 20px 20px;
+    border-radius: 10px;
+    width: 368px;
+    height: 40px;
+    color: white;
+    background-color: rgb(59, 71, 110);
+}
+
+.create:hover {
+    cursor: pointer;
+    background-color: rgb(71, 81, 110);
+}
+
+.clearfix {
+    overflow: auto;
+  }

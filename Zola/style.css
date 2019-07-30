@@ -1,0 +1,248 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Poppins:300,400,500&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+    height: 100%;
+    color: rgb(59, 59, 59);
+    background-color: rgb(228, 229, 230);
+    font-family: 'Roboto', sans-serif;
+}
+
+html {
+    font-size: 10px;
+    font-family: sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+.header-contain {
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    margin-top: 1rem;
+    height: 50px;
+}
+
+.logo p {
+    font-size: 30px;
+    font-weight: bold;
+    margin-left: 10rem;
+    font-family: 'Poppins', sans-serif;
+    text-transform: uppercase;
+
+}
+
+.phone {
+margin-left: auto;
+align-self: center;
+padding-bottom: 1rem;
+font-weight: bold;
+}
+
+.buttons {
+    margin-right: 2rem;
+}
+
+.buttons button {
+    padding: 10px 15px;
+    font-size: 1.5rem;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+a, a:visited, a:hover, a:active {
+    color: inherit;
+}
+
+.o {
+color: rgb(235, 11, 235);
+}
+
+#button1 {
+    background: transparent;
+    border: none;
+}
+
+#button2 {
+    border-radius: 20px;
+    border: none;
+    color:  rgb(228, 229, 230);
+    background-color: rgb(10, 233, 159);
+
+}
+
+#button2:hover {
+    background-color: rgb(8, 194, 132);
+    transition: background-color .5s;
+}
+
+.special {
+    height: 35px;
+    background-color: rgb(207, 54, 92);
+    color: #eee;
+    text-align: center;
+    font-size:13px;
+    padding-top: .5rem;
+    letter-spacing: 1.5px;
+}
+
+.deal {
+    text-transform: uppercase;
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.main {
+    height: 50rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url(wedding.jpg) center no-repeat;
+}
+
+.main-content {
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    margin-right: 5rem;
+    padding-bottom: 6rem;
+    color: #eee;
+    width: 50rem;
+}
+
+.main h1 {
+    font-size: 6rem;
+    text-shadow: -2px 30px 8px rgb(14, 13, 13);
+}
+
+.main-img img {
+    width: 300px;
+    height: auto;
+    margin-bottom: 5rem;
+}
+
+.main-content p {
+    margin-top: 3rem;
+    font-size: 1.8rem;
+    text-shadow: -1px 1px 1.5px rgb(14, 13, 13);
+}
+
+.start {
+    font-size: 3rem;
+    margin-top: 2rem;
+    padding: 1rem 2.5rem;
+    border-radius: 2rem;
+    color: #eee;
+    border: 1px solid #eee;
+    background-color: rgb(3, 226, 226);
+}
+
+.start:hover {
+    background-color: rgb(4, 206, 206);
+    cursor: pointer;
+    transition: background-color .5s;
+
+}
+
+.main-descrip .fa {
+    color: rgb(243, 77, 86);
+    font-size: 4rem;
+    margin-bottom: 1.5rem;
+    padding: 20px;
+    border: 1px solid rgb(212, 212, 212);
+    border-radius: 50px;
+    background-color: pink;
+}
+
+.main-descrip div {
+    flex: 1 1 auto;
+    margin-bottom: 4rem;
+}
+
+.main-descrip {
+    display: flex;
+    text-align: center;
+    flex-wrap: wrap;
+    height: 300px;
+    font-size: 2rem;
+    padding-top: 3rem;
+    background-color: rgb(226, 226, 226);    
+
+}
+
+.main-descrip p {
+    font-size: 1.5rem;
+    padding-top: 2rem;
+    width: 60%;
+    margin: 0 auto;
+}
+
+h4 {
+    font-weight: bold;
+}
+
+@media screen and (max-width: 700px) {
+    
+    .logo p {
+        margin-left: 5rem;
+    }
+
+    .buttons button {
+        padding: 10px 15px;
+        font-size: 1.2rem;
+        margin-top: .3rem;
+        font-weight: bold;
+        letter-spacing: 2px;
+    }
+
+    .phone {
+        display: none;
+    }
+
+    .special p {
+        margin-top: .5rem;
+    }
+
+    .special {
+        font-size: 10px;
+    }
+
+    .deal {
+        font-size: 1.3rem;
+    }
+
+    .main {
+        padding: 1rem;
+    }
+
+    .main h1 {
+        font-size: 4rem;
+    }
+
+    .main-img img {
+        width: 200px;
+        height: auto;
+    }
+
+    .main-content p {
+       font-size: 1.5rem;
+    }
+
+    .start {
+        font-size:1.5rem;
+        margin-top: 2rem;
+        padding: 1rem 2.5rem;
+        border-radius: 2rem;
+        color: #eee;
+        border: 1px solid #eee;
+        background-color: rgb(3, 226, 226);
+    }
+}
