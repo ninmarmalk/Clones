@@ -3,7 +3,7 @@ This directory consists mainly of clones and static sites and landing pages I us
 
 ### Netflix Homepage Clone
 
-![](https://media.giphy.com/media/UUhoWSwG1wKrtdtsbH/giphy.gif)
+![](http://www.giphy.com/gifs/QUFsOUCXIt4qDiYjWb)
 
 ### Zola Homepage Clone
 
