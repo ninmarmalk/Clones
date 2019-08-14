@@ -1,13 +1,13 @@
 # Clones
 This directory consists mainly of clones and static sites and landing pages I use to practice CSS/JS.
 
-### Netflix Homepage Clone
-
-![](http://www.giphy.com/gifs/QUFsOUCXIt4qDiYjWb)
-
 ### Zola Homepage Clone
 
 ![](https://media.giphy.com/media/KGl3gI7Uy0lLfpoO7z/giphy.gif)
+
+### Netflix Homepage Clone
+
+![](http://www.giphy.com/gifs/QUFsOUCXIt4qDiYjWb)
 
 ### Sony Alpha Clone
 
