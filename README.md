@@ -1,5 +1,5 @@
 # Clones
-This directory consists mainly of clones and static sites and landing pages I use to practice CSS/JS.
+This directory consists mainly of clones, static sites and landing pages I use to practice CSS/JS.
 
 ## Netflix landing page (HTML, CSS (grid/flexbox), JS)
 <img width="1059" alt="netflix1" src="https://user-images.githubusercontent.com/53053677/63178905-939c1400-c010-11e9-8825-db99f7a18a39.png">
