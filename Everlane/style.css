@@ -1,0 +1,33 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+#head-wrapper {
+  height: 90vh;
+}
+
+#head-top {
+  height: 45px;
+  background-color: #212121;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: white;
+  padding: 0 10px;
+}
+
+#tread {
+  float: left;
+}
+
+#everlaneTread {
+  display: flex;
+}

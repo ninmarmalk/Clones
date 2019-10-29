@@ -39,7 +39,7 @@ nav button {
 .mainhead {
     text-align: center;
     padding-top: 10px;
-    height: 800px;
+    height: 100vh;
     background: url(blue.jpeg);
     background-size: cover;
     color: white;
